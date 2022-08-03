@@ -4,7 +4,7 @@ let btn = document.getElementById('btn');
 let btn2 = document.getElementById('btn2')
 
 function fun() {
-    showName.innerHTML = name.value;
+    showName.innerHTML = "-" + name.value;
 }
 
 btn.addEventListener('click', fun);
